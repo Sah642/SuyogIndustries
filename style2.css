@@ -51,3 +51,113 @@
   margin: 0;
   min-height: 500px;
 }
+
+
+
+.about_1{
+font-size: 20px;
+}
+.about_2{
+  font-size: 15px;
+}
+.call{
+  font-size: 25px;
+}
+.pro{
+  font-size: 35px;
+}
+.pro_row{
+  min-height: 600px; width: 100%;
+}
+.pro_div{
+  width:50%;
+}
+.abt_img{
+   width:300; height:200;
+}
+.contact_id{
+  margin-top: 30px; position: relative;
+}
+.map{
+  border:2;
+   width:300px;
+    height:300px;
+}
+.contact_txt{
+  font-size: 20px;
+  margin-top: 0;
+  width: 50%;
+  margin-left: 10%;
+}
+.get_in_t{
+margin: 10px; margin-left: 15%; font-size: 50px;
+}
+.form_div{
+margin: 30px; margin-left: 20%; padding: 0;
+}
+.input_box{
+  font-size: 15px; height: 50px; width: 300px;
+
+}
+@media only screen and (max-device-width: 769px) {
+   
+.about_1{
+font-size: 15px;
+text-align: center;
+}
+.about_2{
+  font-size: 10px;
+}
+.call{
+  font-size: 15px;
+}
+.pro{
+  font-size: 15px;
+  text-align: center;
+}
+.pro_btn{
+  font-size: 10px;
+  width: 100px;
+
+}
+.pro_txt_h{
+font-size: 10px;
+}
+.pro_txt{
+font-size: 10px;
+}
+.pro_row{
+  min-height: 300px;
+}
+.pro_div{
+  width:80%;
+}
+.abt_img{
+   width:100; height:50;
+}
+.contact_id{
+  margin-top: 300px;
+   position: relative;
+}
+.map{
+  margin-left: 2%;
+  margin-top: 0px;
+  border:1;
+ 
+}
+.contact_txt{
+  font-size: 15px;
+  margin-left: 0; 
+  width: auto;
+}
+.get_in_t{
+margin: 0; font-size: 15px;
+}
+.form_div{
+margin: 0px;  padding: 0;
+}
+.input_box{
+  font-size: 10px; height: 35px; width: 200px;
+
+}
+}
