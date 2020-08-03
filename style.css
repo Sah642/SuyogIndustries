@@ -9,7 +9,7 @@ body,html{
 	/*background-color: lightgrey;*/
 	background-size: cover;
 	font-family: serif;
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
 
 	background-attachment: fixed;
 
@@ -18,7 +18,7 @@ body,html{
 .outercontainer{
 	
 		width: 1200px;
-		height: 100%;
+		/*height: 100%;*/
 		margin: 0 auto;
 		
 
@@ -196,7 +196,7 @@ top:150px;
 .outercontainer{
 	margin: 0;
 	width: 100%;
-	height: 100%;	
+	/*height: 100%;	*/
 	padding: 0;
 	/*background-attachment: scroll;*/
 
