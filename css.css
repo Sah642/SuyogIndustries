@@ -41,11 +41,11 @@ position: absolute;
    
    
 }
-/*@font-face {
+@font-face {
   font-family: "DEBROSEE";
   src: url("DEBROSEE.TTF") format("truetype");
-}*/
-@font-face {
+}
+/*@font-face {
   font-family: "Hornbill";
   src: url("Hornbill.TTF") format("truetype");
 }
@@ -56,7 +56,7 @@ position: absolute;
 @font-face {
   font-family: "Quite Good ";
   src: url("Quite Good .TTF") format("truetype");
-}
+}*/
 
 .i{
   font-size: 25px;
@@ -154,8 +154,8 @@ position: absolute;
     margin-bottom: 0;
   }
 .dotype{
-  height: 100px;
-  width: 80px;
+  height: 130px;
+  width: 100px;
 }
 .a{
   font-size: 15px;

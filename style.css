@@ -8,7 +8,7 @@ body,html{
 	background-image: url(images/bg0.png);
 	/*background-color: lightgrey;*/
 	background-size: cover;
-	
+	font-family: serif;
 	background-repeat: repeat-y;
 
 	background-attachment: fixed;
@@ -80,7 +80,7 @@ top:150px;
 	/*right: 10px;*/
 	height: 550px;
 	width: 700px;
-	background-color: red;
+	/*background-color: red;*/
 }
 
 /* Make the image fully responsive */
@@ -89,7 +89,7 @@ top:150px;
     height: 100%;
 
   }
-  .bgslide1,.bgslide2,.bgslide3,.bgslide4{
+  .bgslide1,.bgslide2,.bgslide3,.bgslide4,.bgslide5{
   	/*background-attachment: fixed;*/
   background-position: top;
   background-repeat: no-repeat;
@@ -101,23 +101,26 @@ top:150px;
 
   }
   .bgslide1{
-  	background-image: url(images/do.jpg);
+  	background-image: url(images/slide/pic1.png);
 
   }
   .bgslide2{
-  	background-image: url(images/do3.png);
+  	background-image: url(images/slide/pic2.png);
   }
    .bgslide3{
-  	background-image: url(images/do4.png);
+  	background-image: url(images/slide/pic3.png);
   }
   .bgslide4{
-  	background-image: url(images/do1.png);
+  	background-image: url(images/slide/pic4.png);
+  }
+  .bgslide5{
+  	background-image: url(images/slide/pic5.png);
   }
  
 .h_txt{
 
 	font-size: 35px;
-	margin-top: 30%;
+	margin-top: 80%;
 }
 .gradient-text {
 	background-color: black;
@@ -201,14 +204,14 @@ top:150px;
 .logo_container{
 position: relative;
 
-float: left;
+/*float: left;*/
 top:2%;
 }
 .logo{
 	margin:20px;
 	margin-bottom: 0;
 	padding: 0;
-	margin-left: 10px;
+	/*margin-left: 10px;*/
 	height: 70px;
 	width: 120px;
 }
@@ -226,9 +229,10 @@ top:2%;
 }
 .slider{
 	padding: 0;
-	margin-top: 18%;
+	margin-top: 15%;
 	width: 100%;
 	height: 300px;
+	bottom: ;
 
 	
 }
