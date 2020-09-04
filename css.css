@@ -41,10 +41,10 @@ position: absolute;
    
    
 }
-@font-face {
+/*@font-face {
   font-family: "DEBROSEE";
   src: url("DEBROSEE.TTF") format("truetype");
-}
+}*/
 /*@font-face {
   font-family: "Hornbill";
   src: url("Hornbill.TTF") format("truetype");

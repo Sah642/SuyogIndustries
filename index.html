@@ -20,11 +20,21 @@
 
  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 	
 </head>
 <body>
-	
+	<!--CSS Spinner-->
+  <!-- <div id="spin"> -->
+<div class="spinner-wrapper">
+<div class="spinner">
+
+  <div class="cube1"></div>
+  <div class="cube2"></div>
+</div>
+<!-- </div> -->
+</div>
 	<div class="outercontainer ">
 		
 
@@ -106,7 +116,7 @@
 </div>
 
 <!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
+<div class="w3-content w3-container " id="about">
   <h3 class="w3-center abt_h" style="">ABOUT US</h3>
  <!--  <p class="w3-center"><em>I love photography</em></p> -->
    <p class="about_1"style="">Founded in the year 2001, We <strong>SUYOG DOORS</strong> are one of the leading organization engaged in <strong>Manufacturing</strong> quality assemble of <strong>Main Door,FRP Doors,Designer Mica Laminate,Door Skin Laminate,Surface Matt,Deco Paint,Solid PVC Doors</strong>. Located at Nanded(Maharashtra, India).</p>
@@ -171,8 +181,20 @@ All SUYOG products are 100% Waterproof, Weather proof & Termite proof and admire
   <div><p style="font-size: 12px; padding: 10px;">&#9679;<a href="index.html" class="w3-hover-opacity">Home</a> &#9679;<a href="AboutUs.html" class="w3-hover-opacity">About Us</a> &#9679;<a href="AboutUs.html" class="w3-hover-opacity">Contact Us</a> &#9679;<a href="product.html" target="_blank" class="w3-hover-opacity">Products</a></p></div>
 </footer>
 	<!-- ------------- -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+<script>
+$(document).ready(function(){
+  
+    // $(".spinner-wrapper").fadeOut(5000);
+    $(".spinner-wrapper").delay(3000).hide("fast");
+  
+});
+</script>
+
+
 </body>
 </html>

@@ -112,9 +112,18 @@ margin: 30px; margin-left: 20%; padding: 0;
 }
 .abt_h{
   font-size: 35px;
+  margin-top: 10%;
 }
 .slogan{
 
+}
+.dotype{
+  height: 130px;
+  width: 100px;
+}
+.dotype1{
+  height: 130px;
+  width: 80px;
 }
 @media only screen and (max-device-width: 769px) {
    
@@ -193,6 +202,7 @@ margin-left: 20%;
 }
 .abt_h{
   font-size: 25px;
+
 }
 .pro_do{
   width: 50%;
@@ -207,4 +217,77 @@ margin-left: 20%;
   margin-bottom: 0;
   font-size: 15px;
 }
+
+
 }
+
+
+
+/*-------------------------------*/
+.spinner {
+position: absolute;
+top: 48%;
+left: 48%;
+  width: 40px;
+  height: 40px;
+  
+}
+
+.cube1, .cube2 {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+  animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+  100% { -webkit-transform: rotate(-360deg) }
+}
+
+@keyframes sk-cubemove {
+  25% { 
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  } 50% { 
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+  } 50.1% { 
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  } 75% { 
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  } 100% { 
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
+.spinner-wrapper {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: skyblue;
+z-index: 999999;
+}
+/*<div class="spinner">
+  <div class="rect1"></div>
+  <div class="rect2"></div>
+  <div class="rect3"></div>
+  <div class="rect4"></div>
+  <div class="rect5"></div>
+</div>*/
