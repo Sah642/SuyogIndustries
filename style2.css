@@ -122,8 +122,8 @@ margin: 30px; margin-left: 20%; padding: 0;
   width: 100px;
 }
 .dotype1{
-  height: 130px;
-  width: 80px;
+  height: 300px;
+  width: 150px;
 }
 @media only screen and (max-device-width: 769px) {
    
@@ -291,3 +291,22 @@ z-index: 999999;
   <div class="rect4"></div>
   <div class="rect5"></div>
 </div>*/
+
+
+
+
+
+/*##############################################PRODUCTS PAGE######################################################*/
+
+
+.DS{
+  font-size: 20px;
+  color: brown;
+}
+@media only screen and (max-device-width: 769px) {
+
+  .DS{
+  font-size: 15px;
+ 
+}
+}
