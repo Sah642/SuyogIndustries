@@ -8,7 +8,7 @@
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('images/do2.png');
+  background-image: url('images/do2.jpg');
   height: 100%;
   width: 100%;
   background-position: top;
@@ -17,17 +17,17 @@
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("images/do.png");
+  background-image: url("images/do.jpg");
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("images/do5.png");
+  background-image: url("images/do5.jpg");
   min-height: 400px;
 }
 .bgimg-4 {
-  background-image: url("images/do3.png");
+  background-image: url("images/do3.jpg");
   min-height: 400px;
 }
 
